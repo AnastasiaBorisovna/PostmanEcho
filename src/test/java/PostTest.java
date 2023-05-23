@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.*;
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("POS Raw Text"))
+                .body("data", equalTo("POST Raw Text"))
         ;
 
     }
